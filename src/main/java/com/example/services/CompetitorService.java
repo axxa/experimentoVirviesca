@@ -50,7 +50,7 @@ public class CompetitorService {
     @Produces(MediaType.APPLICATION_JSON)
     public Response getAll() {
     	initDB();
-        Query q = entityManager.createNativeQuery("select * from mydb.n_paciente");
+        Query q = entityManager.createQuery("select u from n_paciente u");
         List<NPaciente> paciente = q.getResultList();
         return Response.status(200).header("Access-Control-Allow-Origin", "*").entity(paciente).build();
     }
