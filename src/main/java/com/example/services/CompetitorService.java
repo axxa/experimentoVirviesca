@@ -50,7 +50,7 @@ public class CompetitorService {
     @Produces(MediaType.APPLICATION_JSON)
     public Response getAll() {
     	initDB();
-        Query q = entityManager.createQuery("select u from heroku_01fab68de7cdfd7.Npaciente u");
+        Query q = entityManager.createQuery("select u from NPaciente u");
         List<NPaciente> paciente = q.getResultList();
         return Response.status(200).header("Access-Control-Allow-Origin", "*").entity(paciente).build();
     }
