@@ -6,11 +6,11 @@
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
       <!--<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/mydb"/>-->
-      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://us-cdbr-iron-east-02.cleardb.net/heroku_357e1efbac8c4c3?reconnect=true:3306/heroku_01fab68de7cdfd7"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://us-cdbr-iron-east-02.cleardb.net/heroku_4a736c906d068c5?reconnect=true:3306"/>
       <!--<property name="javax.persistence.jdbc.url" value="jdbc:mysql://us-cdbr-iron-east-02.cleardb.net/heroku_357e1efbac8c4c3?reconnect=true:3306/heroku_01fab68de7cdfd7"/>-->
       <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
-      <property name="javax.persistence.jdbc.user" value="bb82b63ad2b5a2"/>
-      <property name="javax.persistence.jdbc.password" value="d10038d9"/>
+      <property name="javax.persistence.jdbc.user" value="b8d5ba6fe11c51"/>
+      <property name="javax.persistence.jdbc.password" value="31572f1f"/>
     </properties>
   </persistence-unit>
 </persistence>
